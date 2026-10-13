@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yahia | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER & NAVIGATION -->
+    <header>
+        <nav>
+            <h2 data-i18n="portfolio">Yahia Portfolio</h2>
+
+            <div class="nav-links">
+                <a href="#about" data-i18n="about">About</a>
+                <a href="#skills" data-i18n="skills">Skills</a>
+                <a href="#projects" data-i18n="projects">Projects</a>
+                <a href="#hobbies" data-i18n="hobbies">Hobbies</a>
+                <a href="#contact" data-i18n="contact">Contact</a>
+            </div>
+
+            <div class="nav-buttons">
+                <button id="themeBtn" type="button">
+                    Change Theme
+                </button>
+
+                <button id="languageBtn" type="button">
+                    العربية
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- ABOUT SECTION -->
+        <section id="about">
+
+            <h1 data-i18n="welcome">
+                Hello, I'm Yahia
+            </h1>
+
+            <p data-i18n="description">
+                I am passionate about Cybersecurity,
+                Web Development, and Programming.
+            </p>
+
+            <img
+                id="profileImage"
+                src="assets/profile.jpg"
+                alt="My Profile Photo"
+                width="200"
+            >
+
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills">
+
+            <h2 data-i18n="mySkills">
+                My Skills
+            </h2>
+
+            <div class="skills-grid">
+
+                <div>HTML</div>
+
+                <div>CSS</div>
+
+                <div>JavaScript</div>
+
+                <div>Python</div>
+
+                <div>Linux</div>
+
+                <div data-i18n="cybersecurity">
+                    Cybersecurity
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects">
+
+            <h2 data-i18n="myProjects">
+                My Projects
+            </h2>
+
+            <div class="projects-grid">
+
+                <article>
+                    <h3>Project 00</h3>
+
+                    <p data-i18n="project0">
+                        My first web development project.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Project 01</h3>
+
+                    <p data-i18n="project1">
+                        HTML fundamentals and page structure.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Project 02</h3>
+
+                    <p data-i18n="project2">
+                        CSS styling and responsive layouts.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Project 03</h3>
+
+                    <p data-i18n="project3">
+                        JavaScript and interactive applications.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- HOBBIES SECTION -->
+        <section id="hobbies">
+
+            <h2 data-i18n="myHobbies">
+                My Hobbies
+            </h2>
+
+            <p data-i18n="hobbiesText">
+                Coding, learning new technologies,
+                and solving programming challenges.
+            </p>
+
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+
+            <h2 data-i18n="contactMe">
+                Contact Me
+            </h2>
+
+            <form id="contactForm">
+
+                <input type="text"
+       placeholder="Your Name"
+       data-i18n-placeholder="name"
+       required>
+
+<input type="email"
+       placeholder="Your Email"
+       data-i18n-placeholder="email"
+       required>
+
+<textarea
+       placeholder="Your Message"
+       data-i18n-placeholder="message"
+       required></textarea>
+
+                <button type="submit" data-i18n="sendMessage">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p data-i18n="footer">
+            © 2026 Yahia. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
+
